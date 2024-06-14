@@ -42,15 +42,14 @@ For your second milestone, explain what you've worked on since your previous mil
 -->
 # First Milestone
 
-**Don't forget to replace the text below with the embedding for your milestone video. Go to Youtube, click Share -> Embed, and copy and paste the code to replace what's below.**
-
 <iframe width="560" height="315" src="https://www.youtube.com/embed/CaCazFBhYKs" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
 
-For your first milestone, describe what your project is and how you plan to build it. You can include:
-- An explanation about the different components of your project and how they will all integrate together
-- Technical progress you've made so far
-- Challenges you're facing and solving in your future milestones
-- What your plan is to complete your project
+This project involves the raspberry pi, which I last used when I was 6, back in 2013. It also includes using motors and ultrasonic sensors, so there is great value to be had undertaking this project. However, this project isn't simple. 
+- This project requires some knowledge on how to use a raspberry pi and its OS, along with sufficient knowledge on how circuits work. Specifically, a raspberry pi, ultrasonic sensor, motors, and electrical circuiting was used in this project.
+- So far, the wiring is fairly simple, wiring the power source to the breadboard to the rest of the components, and the code is simple, with the GPIO system on a raspberry pi being well documented. Picamera2 was new to me, but was trivial to implement. Future additions may introduce more of a challenge, such as tensorflow lite or pose recognition, which utilize the components I already have, but are more complicated to implement.
+- With that being said, mistakes were certainly made. Over these 5 days, I spent 1 of them rewiring because of an error in orientation of the raspberry pi. I definitely learned to be even more meticulous than I already was and am confident I can handle these situations in the future.
+- With two more weeks to go, immediate goals include finishing the code to have the robot autonomously track a target. Beyond that, implementing more complicated systems with code onto the raspberry pi is very attractive, while physical modifications are likely unnecessary beyond improving the basic functioning of the robot. 
+
 
 <!---
 # Schematics 
