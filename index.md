@@ -25,24 +25,12 @@ For your final milestone, explain the outcome of your project. Key details to in
 - What your biggest challenges and triumphs were at BSE
 - A summary of key topics you learned about
 - What you hope to learn in the future after everything you've learned at BSE
-
-
-
-# Second Milestone
-
-**Don't forget to replace the text below with the embedding for your milestone video. Go to Youtube, click Share -> Embed, and copy and paste the code to replace what's below.**
-
-<iframe width="560" height="315" src="https://www.youtube.com/embed/y3VAmNlER5Y" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
-
-For your second milestone, explain what you've worked on since your previous milestone. You can highlight:
-- Technical details of what you've accomplished and how they contribute to the final goal
-- What has been surprising about the project so far
-- Previous challenges you faced that you overcame
-- What needs to be completed before your final milestone 
 -->
-# First Milestone
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/CaCazFBhYKs" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+
+# First Milestone - Wiring and Testing
+
+<iframe width="560" height="315" src="https://www.youtube.com/watch?v=AWm2tbdo_Qw&list=PLe-u_DjFx7eticgHvdNBMS-CTTohSGwUM&index=10" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
 
 This project involves the raspberry pi, which I last used when I was 6, back in 2013. It also includes using motors and ultrasonic sensors, so there is great value to be had undertaking this project. However, this project isn't simple. 
 - This project requires some knowledge on how to use a raspberry pi and its OS, along with sufficient knowledge on how circuits work. Specifically, a raspberry pi, ultrasonic sensor, motors, and electrical circuiting was used in this project.
@@ -50,6 +38,29 @@ This project involves the raspberry pi, which I last used when I was 6, back in 
 - With that being said, mistakes were certainly made. Over these 5 days, I spent 1 of them rewiring because of an error in orientation of the raspberry pi. I definitely learned to be even more meticulous than I already was and am confident I can handle these situations in the future.
 - With two more weeks to go, immediate goals include finishing the code to have the robot autonomously track a target. Beyond that, implementing more complicated systems with code onto the raspberry pi is very attractive, while physical modifications are likely unnecessary beyond improving the basic functioning of the robot. 
 
+# Second Milestone - Code and Tuning
+
+<iframe width="560" height="315" src="https://www.youtube.com/watch?v=1GEd_ZLxvUk&list=PLe-u_DjFx7eticgHvdNBMS-CTTohSGwUM&index=28" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+
+This project uses relatively simple code and structures. The pain comes from changing threshhold values. 
+- Before starting anything else, I had to neatly rewire everything so if any errors come up, I can blame something other than the wires. 
+- A pseudo code phase is helpful, but I broke down the process into two parts: Look for the ball, move towards/away from the ball. I completed the first part in this milestone. 
+- After setting up the base code, I ran the code and to no one's surprise, nothing worked. Either the camera values were too vague and there was too much interference, the motor wiring was swapped, or the ultrasonic sensors were too inconsistent, I had to fix the errors as they came up, not in preparation for them. 
+- Because of this, this step took a whole week. However, I'm proud to say that the robot can consistently track the ball. The next milestone will include the second step previously mentioned, keeping the robot a certain distance from the ball. 
+
+<!---
+# Final Milestone
+
+**Don't forget to replace the text below with the embedding for your milestone video. Go to Youtube, click Share -> Embed, and copy and paste the code to replace what's below.**
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/F7M7imOVGug" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+
+For your final milestone, explain the outcome of your project. Key details to include are:
+- What you've accomplished since your previous milestone
+- What your biggest challenges and triumphs were at BSE
+- A summary of key topics you learned about
+- What you hope to learn in the future after everything you've learned at BSE
+-->
 
 <!---
 # Schematics 
