@@ -1,1 +1,3 @@
-This repository is a template for documenting BlueStamp Engineering projects. Users should replace this text with a description of what their project is and what their repository holds. 
+Bluestamp Ball Tracking Robot
+
+This is my journey in the Bluestamp engineering program to create a robot that can follow a red ball. Potential additions in the future may include voice command and AI recognition!
